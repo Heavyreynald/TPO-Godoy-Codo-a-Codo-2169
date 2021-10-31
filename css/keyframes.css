@@ -1,0 +1,45 @@
+@keyframes coso_aparece_darriba {
+    from {
+        opacity: 0;
+        top: -50px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes coso_aparece_darriba {
+    from {
+        opacity: 0;
+        top: -50px;
+        
+    }
+    to {
+        opacity: 1;
+        top: 0px;        
+    }
+}
+
+@keyframes coso_aparece_dabajo {
+    from {
+        opacity: 0;
+        bottom: -50px;
+    }
+    to {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+@-webkit-keyframes coso_aparece_dabajo {
+    from {
+        opacity: 0;
+        bottom: -50px;
+        
+    }
+    to {
+        opacity: 1;
+        bottom: 0px;        
+    }
+}

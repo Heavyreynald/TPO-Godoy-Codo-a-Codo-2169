@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Oswald:wght@300;400&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../img/icons/css/fontello.css">
+    <link rel="stylesheet" href="../css/keyframes.css">
+
+    <title>S.Godoy - Contacto</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="encabezado">
+            <h1>Salvador Godoy</h1>
+            <h3>Soluciones de gas natural<h3>
+        </div>
+
+        <div class="img_enc">
+            <img src="../img/Fuego.jpg" alt="hornallas">
+        </div>
+
+    </div>
+    
+    <div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="info.html">Información</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+    </nav>
+
+    </div>    
+
+    <div class="cuerpo">
+        <div class="complemento"> 
+            <h1>Perfil</h1>
+            <img src="../img/perfil.jpg">
+            <p>Gasista matriculado - categoría segunda. <br><br> Más de 35 años de experiencia en el rubro avalan mis servicios.  Excelencia en reparaciones de gas e instalaciones 
+            domiciliarias. <br><br> Además de clientes particulares también cuento con el respaldo de varios consorcios donde habitualmente realizo tareas de mantenimiento. <br><br></p>
+
+        </div>
+    
+        <div class="principal"> <!--contenedor de "cachitos"-->
+
+            <div class="complemento" style="background-color: rgb(14, 142, 145); margin-left: 30px;"><h1>Contacto</h1></div>
+
+            
+
+            <div id="parte_rev"> <!--"cachito" de página: article con img-->
+
+                <img src="../img/Consultas.jpg">
+
+                <article>
+                    <p>Tu consulta siempre es bien recibida. <br><br> Dejame tus datos y me pondé en contacto a la brevedad. <br><br> Presupuestos sin cargo:</p>
+
+                </article>
+
+                
+
+            </div>
+
+            <div class="parte">
+
+                <form name="consulta" action="">
+                    <fieldset>
+                     <legend><h3>Completá tus datos</h3></legend>
+                     <label for="nombre">Nombre:</label>
+                     <input type="text" id="nombre" maxlength="100"><br><br>
+                     <label for="mail">E-Mail:</label>
+                     <input type="email" id="mail"><br><br>
+                     <label for="fono">N° Teléfono:</label>
+                     <input type="int" id="fono" maxlength="30"><br><br>
+                     <label for="mens"><i>Escribí aquí tu consulta:</i></label>
+                     <textarea id="mens" rows="10" cols="40" style="font-family: 'Trebuchet MS';" maxlength="500">
+                        </textarea>
+                        <hr>
+                     <input id="mandar" type="submit" value="Enviar" onclick = "validar()">
+                     </fieldset>
+                     <div id="error"></div>         
+               
+                </form>
+                
+                <img src="../img/Clientes.jpg" alt="coso" style="margin-top:40px">
+            </div>
+
+                
+
+            
+
+            
+
+            
+    </div>
+
+</div>
+
+<div class="barra_iconos">
+    <div class="texto_redes">
+        <p>Mis redes</p>
+    </div>
+    <div class="iconitos">
+        <a href="#"><i class="icon-linkedin"></i></a>
+        <a href="#"><i class="icon-twitter"></i></a>
+        <a target="#"><i class="icon-youtube-play"></i></a>
+        <a href="#"><i class="icon-facebook-squared"></i></a>
+    </div>
+</div>
+
+    <footer>
+        <div>
+            <h2>Salvador Godoy</h2>
+            <h2>Gastista Matriculado - 2° Categoría</h2>
+            <h4>11-6106-5472 // 4300-5827</h4>
+            <h4>E-mail: info_salvadorgodoy@yahoo.com.ar</h4>    
+                
+            
+            
+    
+    
+    
+            </div>
+        </footer>
+
+    </footer>
+<script src="../js/validar.js"></script>
+</body>
+</html>
